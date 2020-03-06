@@ -1,6 +1,6 @@
 /* David's CSS for rounded images and centered text */
 .item {
-    vertical-align: top;
+    vertical-align: center;
     display: inline-block;
     text-align: center;
     width: 120px;
