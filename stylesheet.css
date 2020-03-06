@@ -1,0 +1,14 @@
+/* David's CSS for rounded images and centered text */
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.images {
+    border-radius: 50%;
+    background-color: grey;
+}
+.caption {
+    display: block;
+}
