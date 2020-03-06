@@ -1,5 +1,10 @@
+
+body {
+  margin: 0px;
+}
+
 #header {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .7)), url('https://image.freepik.com/free-photo/low-angle-view-glass-designed-building_23-2148230408.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .7)), url('images/header-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -25,12 +30,17 @@
     margin: .5px;
 }
 
+#header > h5 {
+    font-size: 16px;
+}
+
 #header-img {
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     margin-bottom: 7px;
 }
+
 .btn {
     display: inline-block;
     height: 50px;
@@ -74,6 +84,7 @@
     text-decoration:none;
     margin-top: 10px;
 }
+
 .mr-auto
 {
   margin-right: auto;
@@ -120,4 +131,53 @@
 .nav-btn-ar {
     background-color: #75C776;
     border: 60px;
+}
+
+/* David's CSS for rounded images and centered text */
+.item {
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.images {
+    border-radius: 100%;
+    background-color: grey;
+    height: 100%;
+    width:100%;
+}
+
+.caption-header {
+    display: block;
+    font-weight: normal;
+    font-size: 16pt;
+    line-height:1.5;
+}
+.caption-below {
+    display:block;
+    font-weight:bold;
+    font-style:italic;
+    font-size:11pt;
+    line-height:1.5;
+}
+.caption-info{
+  display:block;
+  font-weight: normal;
+
+  font-size: 10pt;
+}
+
+.team-header {
+    display: block;
+    font-weight: bold;
+    font-size: 20pt;
+    line-height: 0.5pt;
+}
+
+.team-below {
+    display: block;
+    font-weight:normal;
+    font-size:12pt;
+    line-height: 0.5pt;
+
 }
