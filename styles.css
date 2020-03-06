@@ -1,5 +1,5 @@
 #header {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .7)), url('https://image.freepik.com/free-photo/low-angle-view-glass-designed-building_23-2148230408.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .7)), url('images/header-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -25,10 +25,14 @@
     margin: .5px;
 }
 
+#header > h5 {
+    font-size: 16px;
+}
+
 #header-img {
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     margin-bottom: 7px;
 }
 .btn {
