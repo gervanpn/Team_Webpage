@@ -132,3 +132,52 @@ body {
     background-color: #75C776;
     border: 60px;
 }
+
+/* David's CSS for rounded images and centered text */
+.item {
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.images {
+    border-radius: 100%;
+    background-color: grey;
+    height: 100%;
+    width:100%;
+}
+
+.caption-header {
+    display: block;
+    font-weight: normal;
+    font-size: 16pt;
+    line-height:1.5;
+}
+.caption-below {
+    display:block;
+    font-weight:bold;
+    font-style:italic;
+    font-size:11pt;
+    line-height:1.5;
+}
+.caption-info{
+  display:block;
+  font-weight: normal;
+
+  font-size: 10pt;
+}
+
+.team-header {
+    display: block;
+    font-weight: bold;
+    font-size: 20pt;
+    line-height: 0.5pt;
+}
+
+.team-below {
+    display: block;
+    font-weight:normal;
+    font-size:12pt;
+    line-height: 0.5pt;
+
+}
