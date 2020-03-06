@@ -84,3 +84,44 @@ body {
   margin-left: auto;
 
 }
+/* aus and roaa css*/
+.nav-bar-ar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mr-auto-ar {
+    margin: auto;
+    display: flex;
+}
+
+.btn-ar {
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    text-align: center;
+    color: #f3f3f3;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.inactive-btn-ar {
+    padding: .60rem 1rem;
+    text-decoration: none;
+}
+
+.nav-items-ar {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.nav-btn-ar {
+    background-color: #75C776;
+    border: 60px;
+}
