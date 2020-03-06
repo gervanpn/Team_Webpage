@@ -76,13 +76,12 @@
     text-decoration:none;
     margin-top: 10px;
 }
+
 .mr-auto
 {
   margin-right: auto;
   margin-left: auto;
 
-<<<<<<< HEAD
-=======
 }
 /* aus and roaa css*/
 .nav-bar-ar {
@@ -124,5 +123,4 @@
 .nav-btn-ar {
     background-color: #75C776;
     border: 60px;
->>>>>>> 066c11a315061b991f0ffca18fd54dd25448ba25
 }
