@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .header-font-family {
@@ -73,6 +73,7 @@ body {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
+    font-size: 5pt;
 }
 
 .inactive-btn {
@@ -144,24 +145,24 @@ body {
     border-radius: 100%;
     background-color: grey;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 .caption-header {
     display: block;
     font-weight: normal;
     font-size: 16pt;
-    line-height:1.5;
+    line-height: 1.5;
 }
 .caption-below {
     display:block;
-    font-weight:bold;
-    font-style:italic;
-    font-size:11pt;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11pt;
     line-height:1.5;
 }
 .caption-info{
-  display:block;
+  display: block;
   font-weight: normal;
 
   font-size: 10pt;
